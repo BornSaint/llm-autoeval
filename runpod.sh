@@ -24,6 +24,7 @@ screen
 
 # Install common libraries
 pip install requests accelerate sentencepiece pytablewriter einops protobuf huggingface_hub==0.21.4 torch torchvision
+echo "XXXAAA"
 pip install -U transformers
 
 # Check if HUGGINGFACE_TOKEN is set and log in to Hugging Face
